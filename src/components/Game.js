@@ -1,16 +1,23 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
+// function component to takes score, myChoice, and setScore as destructured props
 const Game = ({ score, myChoice, setScore }) => {
+  // set state for house, playerWin, counter
   const [house, setHouse] = useState("");
   const [playerWin, setPlayerWin] = useState("");
 
   const [counter, setCounter] = useState(3);
 
+  // function for newHousePick.
+  // array of choices with rock, paper, scissors
+  // setHouse to choices at random * 3
   const newHousePick = () => {
     const choices = ["rock", "paper", "scissors"];
     setHouse(choices[Math.floor(Math.random() * 3)]);
   };
+
+  // add useEffect for newHousePick
   useEffect(() => {
     newHousePick();
   }, []);
