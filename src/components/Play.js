@@ -19,7 +19,7 @@ const Play = ({ setMyChoice }) => {
         </Link>
         <Link to="/game">
           <div
-            data-id="scissor"
+            data-id="scissors"
             onClick={setChoice}
             className="icon icon--scissors"
           ></div>
