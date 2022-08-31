@@ -1,12 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Triangle from "../images/bg-triangle.svg";
+import { Link } from "react-router-dom";
 
 const Play = ({ setMyChoice }) => {
   const setChoice = (e) => {
     setMyChoice(e.target.dataset.id);
   };
-
   return (
     <div className="play">
       <img src={Triangle} alt="" className="triangle" />
@@ -20,11 +19,12 @@ const Play = ({ setMyChoice }) => {
         </Link>
         <Link to="/game">
           <div
-            data-id="scissors"
+            data-id="scissor"
             onClick={setChoice}
             className="icon icon--scissors"
           ></div>
         </Link>
+
         <Link to="/game">
           <div
             data-id="rock"
