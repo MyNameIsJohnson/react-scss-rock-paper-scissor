@@ -10,13 +10,17 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-        {/* <div className="attribution">
+        <div className="attribution">
           Challenge by{" "}
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
             Frontend Mentor
           </a>
-          . Coded by <a href="#">Your Name Here</a>.
-        </div> */}
+          . Coded by{" "}
+          <a href="https://mynameisjohnson.github.io/react-portfolio/">
+            Johnson Thieu
+          </a>
+          .
+        </div>
         <button className="rules" onClick={toggle}>
           Rules
         </button>
