@@ -7,6 +7,12 @@
     transform: translate(-50%);
     bottom: 1rem;
   }
+  a {
+    color: white;
+  }
+  a:hover {
+    color: blue;
+  }
 
   button {
     position: absolute;
