@@ -2,11 +2,15 @@
   width: 100%;
 
   position: relative;
-  margin: 3.125rem 0 0 0;
   display: flex;
   flex-direction: column;
 
   .triangle {
+    position: absolute;
+    align-self: center;
+    margin: 4.375rem 0 0 0;
+  }
+  .pentagon {
     position: absolute;
     align-self: center;
     margin: 4.375rem 0 0 0;
@@ -24,26 +28,39 @@
 
       &--paper {
         @include icon($imageP, $paper-gradient);
-        transform: translateX(1.5rem);
-
+        transform: translateX(14rem) translateY(18.5rem);
         &:hover {
-          transform: translateX(1.5rem) scale(1.1);
+          transform: translateX(15rem) translateY(18rem) scale(1.1);
         }
       }
       &--scissors {
         @include icon($imageS, $scissors-gradient);
-        transform: translateX(8rem);
+        transform: translateX(10rem) translateY(0rem);
 
         &:hover {
-          transform: translateX(8rem) scale(1.1);
+          transform: translateX(10rem) translateY(1rem) scale(1.1);
         }
       }
       &--rock {
         @include icon($imageR, $rock-gradient);
-        transform: translateX(-10rem) translateY(13rem);
+        transform: translateX(-10rem) translateY(7rem);
 
         &:hover {
-          transform: translateX(-10rem) translateY(13rem) scale(1.1);
+          transform: translateX(-9rem) translateY(7rem) scale(1.1);
+        }
+      }
+      &--spock {
+        @include icon($imageSP, $spock-gradient);
+        transform: translateX(0rem) translateY(7rem);
+        &:hover {
+          transform: translateX(-1rem) translateY(7rem) scale(1.1);
+        }
+      }
+      &--lizard {
+        @include icon($imageL, $lizard-gradient);
+        transform: translateX(-13rem) translateY(18.5rem);
+        &:hover {
+          transform: translateX(-15rem) translateY(18rem) scale(1.1);
         }
       }
     }
