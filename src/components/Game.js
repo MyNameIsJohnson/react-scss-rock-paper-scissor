@@ -26,19 +26,49 @@ const Game = ({ score, myChoice, setScore }) => {
     if (myChoice === "rock" && house === "scissors") {
       setPlayerWin("win");
       setScore(score + 1);
+    } else if (myChoice === "rock" && house === "lizard") {
+      setPlayerWin("win");
+      setScore(score + 1);
     } else if (myChoice === "rock" && house === "paper") {
+      setPlayerWin("lose");
+      setScore(score - 1);
+    } else if (myChoice === "rock" && house === "spock") {
+      setPlayerWin("lose");
+      setScore(score - 1);
+    } else if (myChoice === "spock" && house === "scissors") {
+      setPlayerWin("win");
+      setScore(score + 1);
+    } else if (myChoice === "spock" && house === "rock") {
+      setPlayerWin("win");
+      setScore(score + 1);
+    } else if (myChoice === "spock" && house === "paper") {
+      setPlayerWin("lose");
+      setScore(score - 1);
+    } else if (myChoice === "spock" && house === "lizard") {
       setPlayerWin("lose");
       setScore(score - 1);
     } else if (myChoice === "scissors" && house === "paper") {
       setPlayerWin("win");
       setScore(score + 1);
+    } else if (myChoice === "scissors" && house === "lizaer") {
+      setPlayerWin("lose");
+      setScore(score - 1);
     } else if (myChoice === "scissors" && house === "rock") {
+      setPlayerWin("win");
+      setScore(score + 1);
+    } else if (myChoice === "scissors" && house === "spock") {
       setPlayerWin("lose");
       setScore(score - 1);
     } else if (myChoice === "paper" && house === "rock") {
       setPlayerWin("win");
       setScore(score + 1);
+    } else if (myChoice === "paper" && house === "spock") {
+      setPlayerWin("win");
+      setScore(score + 1);
     } else if (myChoice === "paper" && house === "scissors") {
+      setPlayerWin("lose");
+      setScore(score - 1);
+    } else if (myChoice === "paper" && house === "lizard") {
       setPlayerWin("lose");
       setScore(score - 1);
     } else {
