@@ -50,7 +50,7 @@ const Game = ({ score, myChoice, setScore }) => {
     } else if (myChoice === "scissors" && house === "paper") {
       setPlayerWin("win");
       setScore(score + 1);
-    } else if (myChoice === "scissors" && house === "lizaer") {
+    } else if (myChoice === "scissors" && house === "lizard") {
       setPlayerWin("lose");
       setScore(score - 1);
     } else if (myChoice === "scissors" && house === "rock") {
