@@ -28,9 +28,9 @@
 
       &--paper {
         @include icon($imageP, $paper-gradient);
-        transform: translateX(14rem) translateY(18.5rem);
+        transform: translateX(30rem) translateY(8rem);
         &:hover {
-          transform: translateX(15rem) translateY(18rem) scale(1.1);
+          transform: translateX(30rem) translateY(8rem) scale(1.5);
         }
       }
       &--scissors {
@@ -38,29 +38,29 @@
         transform: translateX(10rem) translateY(0rem);
 
         &:hover {
-          transform: translateX(10rem) translateY(1rem) scale(1.1);
+          transform: translateX(10rem) translateY(0rem) scale(1.5);
         }
       }
       &--rock {
         @include icon($imageR, $rock-gradient);
-        transform: translateX(-10rem) translateY(7rem);
-
+        transform: translateX(6.5rem) translateY(20rem);
         &:hover {
-          transform: translateX(-9rem) translateY(7rem) scale(1.1);
+          transform: translateX(6.5rem) translateY(20rem) scale(1.5);
         }
       }
       &--spock {
         @include icon($imageSP, $spock-gradient);
-        transform: translateX(0rem) translateY(7rem);
+        transform: translateX(-20rem) translateY(8rem);
+
         &:hover {
-          transform: translateX(-1rem) translateY(7rem) scale(1.1);
+          transform: translateX(-20rem) translateY(8rem) scale(1.5);
         }
       }
       &--lizard {
         @include icon($imageL, $lizard-gradient);
-        transform: translateX(-13rem) translateY(18.5rem);
+        transform: translateX(-26.5rem) translateY(20rem);
         &:hover {
-          transform: translateX(-15rem) translateY(18rem) scale(1.1);
+          transform: translateX(-26.5rem) translateY(20rem) scale(1.5);
         }
       }
     }
