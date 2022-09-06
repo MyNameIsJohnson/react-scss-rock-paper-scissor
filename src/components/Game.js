@@ -71,6 +71,18 @@ const Game = ({ score, myChoice, setScore }) => {
     } else if (myChoice === "paper" && house === "lizard") {
       setPlayerWin("lose");
       setScore(score - 1);
+    } else if (myChoice === "lizard" && house === "spock") {
+      setPlayerWin("win");
+      setScore(score + 1);
+    } else if (myChoice === "lizard" && house === "paper") {
+      setPlayerWin("win");
+      setScore(score + 1);
+    } else if (myChoice === "lizard" && house === "rock") {
+      setPlayerWin("lose");
+      setScore(score - 1);
+    } else if (myChoice === "lizard" && house === "scissors") {
+      setPlayerWin("lose");
+      setScore(score - 1);
     } else {
       setPlayerWin("draw");
     }
