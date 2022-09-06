@@ -26,7 +26,20 @@ Users should be able to:
 
 ### Screenshot
 
-![](./src/images/game-screenshot.png)
+- Landing Page
+  ![](./src/images/game-screenshot.png)
+
+- User selected Paper, Count down starts
+  ![](./src/images/game-count.png)
+
+- User selected Paper, House randomly selected Paper
+  ![](./src/images/game-draw.png)
+
+- User selected Scissors, House selected Rock
+  ![](./src/images/game-win.png)
+
+- User selected Rock, House selected Paper
+  ![](./src/images/game-lose.png)
 
 ### Links
 
