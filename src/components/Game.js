@@ -13,8 +13,8 @@ const Game = ({ score, myChoice, setScore }) => {
   // array of choices with rock, paper, scissors
   // setHouse to choices at random * 3
   const newHousePick = () => {
-    const choices = ["rock", "paper", "scissors"];
-    setHouse(choices[Math.floor(Math.random() * 3)]);
+    const choices = ["rock", "paper", "scissors", "spock", "lizard"];
+    setHouse(choices[Math.floor(Math.random() * 5)]);
   };
 
   // add useEffect for newHousePick
