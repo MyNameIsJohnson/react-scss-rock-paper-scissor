@@ -29,6 +29,9 @@ Users should be able to:
 - Landing Page
   ![](./src/images/game-screenshot.png)
 
+- User pushes Rules button
+  ![](./src/images/game-rules.png)
+
 - User selected Paper, Count down starts
   ![](./src/images/game-count.png)
 
