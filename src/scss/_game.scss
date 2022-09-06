@@ -122,6 +122,20 @@
           @include bigShadow($rock-gradient);
         }
       }
+      &--spock {
+        @include icon($imageSP, $spock-gradient);
+
+        &--winner {
+          @include bigShadow($spock-gradient);
+        }
+      }
+      &--lizard {
+        @include icon($imageL, $lizard-gradient);
+
+        &--winner {
+          @include bigShadow($lizard-gradient);
+        }
+      }
     }
 
     .counter {
