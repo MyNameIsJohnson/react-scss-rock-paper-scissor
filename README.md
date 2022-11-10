@@ -47,7 +47,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/MyNameIsJohnson/react-scss-rock-paper-scissor)
-- Live Site URL: [Rock, Papper, Scissors, Spock, Lizard](https://react-w-scss-rock-paper-scissors.onrender.com/)
+- Live Site URL: [Rock, Papper, Scissors, Spock, Lizard](https://react-w-scss-rock-paper-scissors.onrender.com/) Deployed on Render.com
 
 ## My process
 
